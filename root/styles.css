@@ -1,0 +1,52 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Garamond, Courier New, sans-serif;
+    font-size: 14pt;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    font-family: Courier New, sans-serif;
+    font-size: 12pt;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.content footer {
+    text-align: center;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+.footer {
+    align-content: center;
+}
