@@ -1,39 +1,64 @@
 <!DOCTYPE html>
-<html>
-    <!-- Site metadata. -->
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-        <title>HOME | nick kammerer</title>
-    </head>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="new-styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nicholas J. Kammerer, Developer</title>
+    <meta name="description" content="Portfolio of projects by Nicholas J. Kammerer, as well as his resume and other
+                                      relevant information for employers.">
 
-    <body>
+</head>
+<body>
+<div id="root">
+    <!-- Header -->
+    <header>
+        <!-- Navbar menu -->
+        <nav>
+            <h1>Nicholas J. Kammerer</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li><a href="docs/KAMMERER%20RESUME%20(public).pdf">Resume</a></li>
+                <li><a href="mailto:nkammerer@albany.edu">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <main>
+        <!-- Home -->
+        <section id="home">
+            <img src="images/nick-8bit.jpg" width="256" height="256" alt="8-bit pixelated image of Nick.">
+            <h3>Hello! My name is Nick,</h3>
+            <p>I am a University student currently pursuing a B.S. in Informatics at the State University of New York, Albany.</p>
+            <a href="https://github.com/nxrada"><img src="images/GitHub-Logo-Dark-32x.png" width="32" height="32"
+                                                     alt="GitHub logo link."></a>
+            <a href="https://linkedin.com/in/nkammerer"><img src="images/LinkedIn-Logo-Dark-34x.png" width="34"
+                                                             height="34" alt="LinkedIn logo link."></a>
+        </section>
+        <!-- About -->
+        <section id="About">
+            <h3>About me</h3>
+            <p>I'll keep it short;</p>
+            <ul>
+                <li>Currently pursuing a B.S. in Informatics/Software Development at SUNY Albany.</li>
+                <li>Expected graduation in May 2024.</li>
+                <li>Strong interest in artificial intelligence/machine learning.</li>
+                <li>2 years of experience programming with Python.</li>
+                <li>I think that cats are pretty cool.</li>
+            </ul>
+        </section>
+        <!-- Portfolio -->
+        <section id="portfolio">
 
-        <!-- Header, common across all pages on site. -->
-        <header class="sidenav">
-            <!-- Navigation menu. -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">about</a></li>
-                    <li><a href="docs/KAMMERER%20RESUME%20(public).pdf">resume</a></li>
-                    <li><a href="mailto:nkammerer@albany.edu">contact</a></li>
-                    <li><a href="https://github.com/nxrada"><img src="images/GitHub-Mark-Light-32px.png" width="32px" height="32px"></a></li>
-                    <li><a href="https://linkedin.com/in/nkammerer"><img src="images/In-White-34.png" width="32px" height="32px"></a></li>
-                </ul>
-            </nav>
-        </header>
-
-
-        <!-- Page's main content. -->
-        <main class="content">
-            <img src="images/nick-8bit.jpg" width="256px" height="256px"></img>
-            <h1>nick kammerer</h1>
-            <p>undergraduate student pursuing a b.s. in informatics; expected graduation spring 2024.</p>
-        </main>
-
-        <!-- Footer, common across all pages on site. -->
-        <footer class="content">
-            <p>© Copyright 2022.</p>
-        </footer>
-    </body>
+        </section>
+        <!-- Contact -->
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2023.</p>
+    </footer>
+</div>
+</body>
 </html>
