@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="new-styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nicholas J. Kammerer, Developer</title>
     <meta name="description" content="Portfolio of projects by Nicholas J. Kammerer, as well as his resume and other
                                       relevant information for employers.">
-
 </head>
 <body>
 <div id="root">
@@ -29,7 +29,7 @@
     <main>
         <!-- Home -->
         <section id="home">
-            <img src="images/nick-8bit.jpg" width="256" height="256" alt="8-bit pixelated image of Nick.">
+            <img src="images/nick-8bit.png" width="256" height="256" alt="8-bit pixelated image of Nick.">
             <h3>Hello! My name is Nick,</h3>
             <p>I am a University student currently pursuing a B.S. in Informatics at the State University of New York, Albany.</p>
             <a href="https://github.com/nxrada"><img src="images/GitHub-Logo-Dark-32x.png" width="32" height="32"
@@ -51,9 +51,34 @@
         </section>
         <!-- Portfolio -->
         <section id="portfolio">
-
+            <h3>Portfolio</h3>
+            <div id="pycipher-cli">
+                <h4>PyCipher-CLI</h4>
+                <p>A command-line encryption tool for text (.txt) files.</p>
+                <a href="https://github.com/nxrada/pycipher-cli">Code</a> | <a href="">Demo</a>
+            </div>
+            <div id="whereify">
+                <h4>Whereify</h4>
+                <p>A web application that displays geographic data about a Spotify user's top artists.</p>
+                <a href="https://github.com/nxrada/whereify">Code</a> | <a href="">Live Demo</a>
+            </div>
+            <div id="nkammerer-dot-com">
+                <h4>NKammerer.com</h4>
+                <p>My personal website, built with HTML5, Bootstrap, and JavaScript.</p>
+                <a href="">Code</a> | <a href="https://www.nkammerer.com/">Live Demo</a>
+            </div>
+            <div id="yt-dlp-gui"></div>
         </section>
         <!-- Contact -->
+        <section id="contact">
+            <h3>Contact</h3>
+            <form action="mailto:nxrada@gmail.com">
+                <label>Email:<br><input type="email" name="sender" required="required"></label><br>
+                <label>Subject:<br><input type="text" name="subject" required="required"></label><br>
+                <label>Message:<br><textarea name="message" required="required"></textarea></label><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
     </main>
     <!-- Footer -->
     <footer>
