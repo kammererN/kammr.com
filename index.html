@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <link rel="icon" href="images/icons/favicon.png" type="image/x-icon">
@@ -15,7 +15,7 @@
 </head>
 <body>
 <!-- Container containing all child elements-->
-<div id="root" class="container-fluid">
+<div id="root" class="container-fluid ">
     <!-- Header / Navbar Row -->
     <header class="container-fluid">
         <!-- Navbar brand & items -->
@@ -84,28 +84,44 @@
         <section id="portfolio" class="row">
             <div class="text-center"><h3>Portfolio</h3></div>
             <!-- PyCipher-CLI project -->
-            <div id="pycipher-cli" class="col">
-                <h4>PyCipher-CLI</h4>
-                <p>A command-line encryption tool for text (.txt) files.</p>
-                <a href="https://github.com/nxrada/pycipher-cli">Code</a> | <!--a href="">Demo</a-->
+            <div class="col text-center">
+                <div class="card">
+                    <!-- PyCipher-CLI project image -->
+                    <img src="/i">
+                    <div class="card-body bg-body-secondary">
+                        <h4 class="card-title">PyCipher-CLI</h4>
+                        <p class="card-body">Command-line encryption tool for text (.txt) files.</p>
+                        <a class="btn btn-tertiary" href="https://github.com/nxrada/pycipher-cli">Code</a>
+                        <a class="btn btn-outline-tertiary" href="#">Demo</a>
+                    </div>
+                </div>
             </div>
             <!-- Whereify project -->
-            <div id="whereify" class="col">
-                <h4>Whereify</h4>
-                <p>A web application that displays geographic data about a Spotify user's top artists.</p>
-                <a href="https://github.com/nxrada/whereify">Code</a> | <!--a href="">Live Demo</a-->
+            <div id="whereify" class="col text-center">
+                <div class="card">
+                    <!-- Whereify project image -->
+                    <img src="/i">
+                    <div class="card-body bg-body-secondary">
+                        <h4 class="card-title">Whereify</h4>
+                        <p class="card-body">Web app that displays geodata about a Spotify user's top artists.</p>
+                        <a class="btn btn-tertiary" href="https://github.com/nxrada/whereify">Code</a>
+                        <a class="btn btn-outline-tertiary" href="#">Live Demo</a>
+                    </div>
+                </div>
             </div>
             <!-- Portfolio website project -->
             <div id="portfolio-website" class="col">
                 <h4>NKammerer.com</h4>
                 <p>This portfolio website, built with HTML5, Bootstrap, and JS.</p>
-                <a href="https://github.com/nxrada/nkammerer.com">Code</a> | <!--a href="https://www.nkammerer.com/">Live Demo</a-->
+                <a href="https://github.com/nxrada/nkammerer.com">Code</a>
+                <a href="https://www.nkammerer.com/">Live Demo</a>
             </div>
             <!-- YT-DLP-GUI project -->
             <div id="yt-dlp-gui" class="col">
                 <h4>YT-DLP-GUI</h4>
                 <p>A graphical user interface for the yt-dlp command-line tool.</p>
-                <a href="https://github.com/nxrada/yt-dlp-gui">Code</a> | <!--a href="">Demo</a-->
+                <a href="https://github.com/nxrada/yt-dlp-gui">Code</a>
+                <a href="">Demo</a>
             </div>
         </section>
         <!-- Contact -->
