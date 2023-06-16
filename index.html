@@ -14,91 +14,111 @@
                                       relevant information for employers.">
 </head>
 <body>
-<div id="root">
-    <!-- Header -->
-    <header>
-        <!-- Navbar menu -->
-        <nav>
-            <h1>Nicholas J. Kammerer</h1>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+<!-- Container containing all child elements-->
+<div id="root" class="container-fluid">
+    <!-- Header / Navbar Row -->
+    <header class="container-fluid">
+        <!-- Navbar brand & items -->
+        <nav id="mainNavbar" class="row navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <div class="col text-center">
+                    <h1 class="navbar-brand">Nicholas J. Kammerer</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                </div>
+                <!-- Navbar navigation -->
+                <div class="col collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+            </div>
         </nav>
     </header>
     <!-- Main content -->
-    <main>
+    <main class="">
         <!-- Home -->
-        <section id="home">
-            <img src="images/nick-8bit.png" width="256" height="256" alt="8-bit pixelated image of Nick.">
-            <h3>Hello! My name is Nick,</h3>
-            <p>I am a 4th-year University student currently pursuing a B.S. in Informatics at the State University of
-                New York, Albany.</p>
-            <!-- Resume, GitHub, LinkedIn links. -->
-            <div class="links">
-                <ul>
-                    <li><a href="docs/KAMMERER%20RESUME%20(public).pdf"><img src="images/icons/resume-icon-dark.png"
-                                                                         width="32" height="32"
-                                                                         alt="Resume icon."></a></li>
-                    <li><a href="https://github.com/nxrada"><img src="images/icons/GitHub-Logo-Dark-32x.png" width="32"
-                                                             height="32" alt="GitHub logo link."></a></li>
-                    <li><a href="https://linkedin.com/in/nkammerer"><img src="images/icons/LinkedIn-Logo-Dark-32x.png"
-                                                                     width="32" height="32" alt="LinkedIn logo link."></a></li>
+        <section id="home" class="row">
+            <!-- Profile picture -->
+            <div id="profilePic" class="col">
+                <img src="images/nick-8bit.png" width="256" height="256" alt="8-bit pixelated image of Nick.">
+            </div>
+            <!-- Profile text -->
+            <div id="profileText" class="col text-center">
+                <h3>Hello, I'm <span class="text-primary">Nick</span></h3>
+                <p>I'm a 4th-year University student pursuing a B.S. in Informatics at SUNY Albany, expected to graduate
+                    in May 2024. I'm fascinated by AI/ML systems & have 2+ years of experience
+                    with Python.</p>
+                <!-- Resume, GitHub, LinkedIn links. -->
+                <ul class="nav ">
+                    <li class="nav-item"><button class="btn btn-primary">Resume</button></li>
+                    <li class="nav-item"><button class="btn btn-outline-primary">GitHub</button></li>
                 </ul>
             </div>
-
         </section>
         <!-- About -->
-        <section id="about">
-            <h3>About me</h3>
-            <p>I'll keep it short;</p>
-            <ul>
-                <li>Currently pursuing a B.S. in Informatics/Software Development at SUNY Albany.</li>
-                <li>Expected graduation in May 2024.</li>
-                <li>Strong interest in artificial intelligence/machine learning.</li>
-                <li>2 years of experience programming with Python.</li>
-                <li>Cats are pretty <a href="index2.html">cool.</a></li>
-            </ul>
+        <section id="about" class="row">
+            <div id="aboutMe">
+                <h3>About me</h3>
+                <p>I'll keep it short;</p>
+                <ul>
+                    <li>Currently pursuing a B.S. in Informatics/Software Development at SUNY Albany.</li>
+                    <li>Expected graduation in May 2024.</li>
+                    <li>Strong interest in artificial intelligence/machine learning.</li>
+                    <li>2 years of experience programming with Python.</li>
+                    <li>Experienced with web development.</li>
+                    <li>Cats are pretty <a href="index2.html">cool.</a></li>
+                </ul>
+            </div>
         </section>
         <!-- Portfolio -->
-        <section id="portfolio">
-            <h3>Portfolio</h3>
+        <section id="portfolio" class="row">
+            <div class="text-center"><h3>Portfolio</h3></div>
             <!-- PyCipher-CLI project -->
-            <div id="pycipher-cli">
+            <div id="pycipher-cli" class="col">
                 <h4>PyCipher-CLI</h4>
                 <p>A command-line encryption tool for text (.txt) files.</p>
                 <a href="https://github.com/nxrada/pycipher-cli">Code</a> | <!--a href="">Demo</a-->
             </div>
             <!-- Whereify project -->
-            <div id="whereify">
+            <div id="whereify" class="col">
                 <h4>Whereify</h4>
                 <p>A web application that displays geographic data about a Spotify user's top artists.</p>
                 <a href="https://github.com/nxrada/whereify">Code</a> | <!--a href="">Live Demo</a-->
             </div>
             <!-- Portfolio website project -->
-            <div id="portfolio-website">
+            <div id="portfolio-website" class="col">
                 <h4>NKammerer.com</h4>
                 <p>This portfolio website, built with HTML5, Bootstrap, and JS.</p>
                 <a href="https://github.com/nxrada/nkammerer.com">Code</a> | <!--a href="https://www.nkammerer.com/">Live Demo</a-->
             </div>
             <!-- YT-DLP-GUI project -->
-            <div id="yt-dlp-gui">
+            <div id="yt-dlp-gui" class="col">
                 <h4>YT-DLP-GUI</h4>
                 <p>A graphical user interface for the yt-dlp command-line tool.</p>
                 <a href="https://github.com/nxrada/yt-dlp-gui">Code</a> | <!--a href="">Demo</a-->
             </div>
         </section>
         <!-- Contact -->
-        <section id="contact">
-            <h3>Contact</h3>
+        <section id="contact" class="row">
+            <div class="col text-center">
+            <div class="text-"><h3>Contact</h3></div>
             <form action="mailto:nxrada@gmail.com">
                 <label>Email:<br><input type="email" name="sender" required="required"></label><br>
                 <label>Subject:<br><input type="text" name="subject" required="required"></label><br>
                 <label>Message:<br><textarea name="message" required="required"></textarea></label><br>
                 <input type="submit" value="Send">
             </form>
+            </div>
         </section>
     </main>
     <!-- Footer -->
