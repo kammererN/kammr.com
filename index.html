@@ -1,176 +1,320 @@
 <!DOCTYPE html>
-<html lang="en-US" xmlns="http://www.w3.org/1999/html">
+<html lang="en-US" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+  <!-- Head -->
   <head>
-  <meta charset="utf-8">
-  <link rel="icon" href="assets/images/icons/favicon.png" type="image/x-icon">
-  <!-- Link to Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <!-- Link to my stylesheet -->
-  <link rel="stylesheet" href="assets/styles/new-styles.css">
-  <!-- Meta viewport tag; essential for mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nicholas J. Kammerer</title>
-  <meta name="description" content="Portfolio by Nicholas J. Kammerer.">
-</head>
+    <meta charset="utf-8">
+    <link rel="icon" href="assets/images/icons/favicon.png" type="image/x-icon">
+
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Link to my stylesheet -->
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
+    <!-- Link to Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Link to 'Press Start' Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Link to 'Marcellus SC' Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
+    <!-- Link to 'Open Sans' Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Mobile Responsive Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title & Description -->
+    <title>Nicholas J. Kammerer</title>
+    <meta name="description" content="Portfolio by Nicholas J. Kammerer.">
+
+  </head> <!-- END Head -->
+
+  <!--=============================================================-->
+  <!--                      MAIN PAGE                              -->
+  <!--=============================================================-->
+
+  <!-- Body -->
   <body>
-    <header id="header" class="">
+
+    <!-- Header -->
+    <header id="header" class="p-3 bg-dark min-vh-100">
+      <!-- Particles -->
+      <div id="particles-js"></div><!-- END Particles -->
       <!-- Navbar-->
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid"> <!-- Container for Navbar -->
-          <a class="navbar-brand" href="#header">
-            <img src="assets/images/icons/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="NK logo">
-            Nicholas J. Kammerer
-          </a> <!-- END Navbar Brand -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> <!-- END Navbar Toggler -->
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#header">Home</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href=#projects>Projects</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="assets/docs/KAMMERER RESUME (public).pdf">Resume</a></li>
-              <li><a class="nav-link" href="mailto:nkammerer@gmail.com">Contact</a></li>
-            </ul>
-          </div> <!-- END Navbar Collapse -->
-        </div>
-      </nav><!-- END Navbar -->
+      <nav class="navbar navbar-expand p-2 pb-3" aria-label="Main navbar">
+          <div class="container-fluid justify-content-center">
+            <div class="" id="mainNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#projects">
+                    <iconify-icon icon="bi:code-slash"></iconify-icon> Projects</a></li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="assets/docs/KAMMERER%20RESUME%20(public).pdf">
+                     <iconify-icon icon="bi:file-earmark"></iconify-icon> Resume</a></li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#skills">
+                     <iconify-icon icon="bi:wrench"></iconify-icon> Skills</a></li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#contact">
+                     <iconify-icon icon="bi:telephone"></iconify-icon> Contact</a></li>
+              </ul>
+            </div>
+          </div><!-- END Fluid Container -->
+        </nav> <!-- END Navbar -->
+      <!-- Hero -->
+      <section id="hero" class="pt-5">
+        <div class="container-fluid">
+          <!-- Hero Image & Text-->
+          <div class="row p-md-5">
+            <div class="col text-center">
+              <img src="assets/images/nick-8bit.png" width="256" height="256" alt="8-bit pixelated image of Nick.">
+              <h1 class="name display-1 text-light">Nicholas J. Kammerer</h1>
+              <h2 class="text-primary"><span class="typing"></span></h2>
+            </div>
+          </div> <!-- END Hero Image & Text-->
+
+          <!-- Hero Buttons -->
+          <div class="row p-md-3 mt-5 text-center">
+            <div class="col">
+
+              <a href="#projects" class="p-md-5">
+              <button class="btn btn-primary">
+                <iconify-icon icon="bi:code-slash"></iconify-icon>
+                 Projects</button></a>
+              <a href="https://github.com/nxrada" class="p-md-5">
+              <button class="btn btn-outline-primary">
+                <iconify-icon icon="bi:github"></iconify-icon>
+                 GitHub</button></a>
+
+              </div>
+          </div> <!-- END Hero Buttons -->
+        </div> <!-- END Fluid Container -->
+        <!-- Separator -->
+      </section><!-- END Hero -->
+
     </header>
 
-    <!-- Home -->
-    <section id="home" class="row min-vh-100">
-      <div id="profileText" class="col text-center">
-        <img src="assets/images/nick-8bit.png" width="256" height="256" alt="8-bit pixelated image of Nick.">
-        <h1 class="display-1">Nicholas J. Kammerer</h1>
-        <h2 class="text-primary"><span class="typing"></span></h2>
-        <br>
-        <!-- Resume & GitHub links. -->
-        <div>
-          <button class="btn btn-primary">Resume</button>
-          <button class="btn btn-outline-primary">GitHub</button>
-        </div>
-      </div>
-    </section><!-- END Home -->
+    <!-- Projects -->
+    <section id="projects" class="p-3">
+      <!-- Section title -->
+      <h3 class="text-center p-3">My <span class="text-primary">Projects</span></h3>
 
-    <!-- 75% Width Container -->
-    <div class="container-fluid w-75">
-      <!-- About -->
-      <section id="about" class="row min-vh-100">
-          <h3 class="text-center">About me</h3>
-          <!-- About me image -->
-          <div class="col">
-            <img src="assets/images/placeholder.jpg" width="256" height="256" alt="8-bit pixelated image of Nick."></div>
+      <!-- Projects Container -->
+      <div class="container p-3">
+        <!-- Main Projects row -->
+        <div class="row p-3">
 
-          <!-- About me text-->
-          <div class="col">
-            <p>I'll keep it short;</p>
-            <ul>
-              <li>Currently pursuing a B.S. in Informatics/Software Development at SUNY Albany.</li>
-              <li>Expected graduation in May 2024.</li>
-              <li>Strong interest in artificial intelligence/machine learning.</li>
-              <li>2 years of experience programming with Python.</li>
-              <li>Experienced with web development.</li>
-              <li>Cats are pretty <a href="index2.html">cool.</a></li>
-            </ul>
-          </div>
-        </section> <!-- END About -->
+          <!-- PyCipher-CLI project -->
+          <div class="col text-center">
+            <div class="card">
+              <!-- PyCipher-CLI project image -->
+              <img src="/assets/images/placeholder2.jpg" alt="Pycipher project screenshot.">
+              <div class="card-body">
+                <h4 class="card-title">PyCipher-CLI</h4>
 
-      <!-- Projects -->
-      <section id="projects" class="row min-vh-100">
-            <div class="text-center"><h3>Projects</h3></div>
-            <!-- PyCipher-CLI project -->
-            <div class="col text-center">
-              <div class="card">
-                <!-- PyCipher-CLI project image -->
-                <img src="/assets/images/projects/placeholder.png" alt="Pycipher project screenshot.">
-                <div class="card-body">
-                  <h4 class="card-title">PyCipher-CLI</h4>
-                  <p class="card-body">Command-line encryption tool for text (.txt) files.</p>
-                  <a class="btn btn-primary" href="https://github.com/nxrada/pycipher-cli">Code</a>
-                  <a class="btn btn-outline-primary" href="#">Demo</a>
-                </div>
+                <p class="card-body">Command-line encryption tool for text (.txt) files.</p>
+
+                <a class="btn btn-primary" href="https://github.com/nxrada/pycipher-cli">
+                  <iconify-icon icon="bi:code-slash"></iconify-icon>
+                   Code</a>
+
+                <a class="btn btn-outline-primary" href="#">
+                  <iconify-icon icon="carbon:play-filled" width="16" height="16"></iconify-icon>
+                   Demo</a>
+
               </div>
             </div>
-            <!-- Whereify project -->
-            <!--div id="whereify" class="col text-center">
-              <div class="card">
+          </div> <!-- END PyCipher-CLI project -->
 
-                < !-- Whereify project image -- >
-                <img src="/images/projects/placeholder.png" alt="Whereify project screenshot.">
-                <div class="card-body">
-                  <h4 class="card-title">Whereify</h4>
-                  <p class="card-body">Web app that displays geodata about a Spotify user's top artists.</p>
-                  <a class="btn btn-primary" href="https://github.com/nxrada/whereify">Code</a>
-                  <a class="btn btn-outline-primary" href="#">Live Demo</a>
-                </div>
-              </div>
+          <!-- Whereify project -->
+          <!--div id="whereify" class="col text-center">
+                  <div class="card">
+
+                    < !-- Whereify project image -- >
+                    <img src="/images/projects/placeholder.png" alt="Whereify project screenshot.">
+                    <div class="card-body">
+                      <h4 class="card-title">Whereify</h4>
+                      <p class="card-body">Web app that displays geodata about a Spotify user's top artists.</p>
+                      <a class="btn btn-primary" href="https://github.com/nxrada/whereify">Code</a>
+                      <a class="btn btn-outline-primary" href="#">Live Demo</a>
+                    </div>
+                  </div>
             </div--><!-- END Whereify project -->
-            <!-- Portfolio website project -->
-            <div id="portfolio-website" class="col text-center">
-              <div class="card">
-                <!-- Portfolio website project image -->
-                <img src="/assets/images/projects/placeholder.png" alt="Screenshot of this webpage.">
-                <div class="card-body">
-                  <h4 class="card-title">NKammerer.com</h4>
-                  <p class="card-body">This portfolio website, built with HTML5, Bootstrap, and JS.</p>
-                  <a class="btn btn-primary" href="https://github.com/nxrada/nkammerer.com">Code</a>
-                  <a class="btn btn-outline-primary" href="https://www.nkammerer.com/">Live Demo</a>
-                </div>
-              </div>
-            </div><!-- END Portfolio website project -->
-            <!-- YT-DLP-GUI project -->
-            <div id="yt-dlp-gui" class="col text-center">
-              <div class="card">
-                <!-- yt-dlp-gui website project image -->
-                <img src="/assets/images/projects/placeholder.png" alt="YouTube-DLP-GUI project screenshot.">
-                <div class="card-body">
-                  <h4 class="card-title">YT-DLP-GUI</h4>
-                  <p class="card-body">A graphical user interface for the yt-dlp command-line tool.</p>
-                  <a class="btn btn-primary" href="https://github.com/nxrada/yt-dlp-gui">Code</a>
-                  <a class="btn btn-outline-primary">Demo</a>
-                </div>
-              </div>
-            </div><!-- END yt-dlp-gui project -->
-          </section> <!-- END Projects -->
 
-      <!-- Contact -->
-      <section id="contact" class="row text-center min-vh-100">
-            <h3 class="">Contact</h3>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-          </section> <!-- END Contact -->
-    </div> <!-- END 75% Width Content -->
+          <!-- Portfolio website project -->
+          <div id="portfolio-website" class="col text-center">
+                  <div class="card">
+                    <!-- Portfolio website project image -->
+                    <img src="/assets/images/placeholder2.jpg" alt="Screenshot of this webpage.">
+                    <div class="card-body">
+                      <h4 class="card-title">NKammerer.com</h4>
+
+                      <p class="card-body">This portfolio website, built with HTML5, Bootstrap, and JS.</p>
+
+                      <a class="btn btn-primary" href="https://github.com/nxrada/nkammerer.com">
+                        <iconify-icon icon="bi:code-slash"></iconify-icon>
+                         Code</a>
+
+                      <a class="btn btn-outline-primary" href="https://www.nkammerer.com/">
+                        <iconify-icon icon="ic:round-live-tv" width="16" height="16"></iconify-icon>
+                        Live Demo</a>
+                    </div>
+                  </div>
+                </div><!-- END Portfolio website project -->
+
+          <!-- YT-DLP-GUI project -->
+          <div id="yt-dlp-gui" class="col text-center">
+                  <div class="card">
+                    <!-- yt-dlp-gui website project image -->
+                    <img src="/assets/images/placeholder2.jpg" alt="YouTube-DLP-GUI project screenshot.">
+                    <div class="card-body">
+                      <h4 class="card-title">YT-DLP-GUI</h4>
+
+                      <p class="card-body">A graphical user interface for the yt-dlp command-line tool.</p>
+
+                      <a class="btn btn-primary" href="https://github.com/nxrada/yt-dlp-gui">
+                        <iconify-icon icon="bi:code-slash"></iconify-icon>
+                         Code</a>
+
+                      <a class="btn btn-outline-primary">
+                          <iconify-icon icon="carbon:play-filled" width="16" height="16"></iconify-icon>
+                         Demo</a>
+                    </div>
+                  </div>
+                  </div><!-- END YT-DLP-GUI project -->
+
+        </div> <!-- END Main Projects row -->
+      </div> <!-- END Projects Container -->
+    </section> <!-- END Projects -->
+
+    <!-- Skills -->
+    <section id="skills" class="p-3 bg-dark text-light">
+        <!-- Section Title -->
+        <h3 class="text-center p-3">Technical <span class="text-primary">Skills</span></h3>
+
+        <!-- Skills container -->
+        <div class="container-fluid p-3 text-reset">
+          <!-- Skills list -->
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Bootstrap</li>
+            <li>SQLite3</li>
+            <li>Linux</li>
+            <li>Microsoft Azure</li>
+            <li>Microsoft Office 365</li>
+          </ul>
+        </div> <!-- END Skills container -->
+      <!-- -->
+      </section> <!-- END Skills -->
+
+    <!-- About & Contact -->
+    <section id="about" class="p-3">
+        <!-- Section Title -->
+        <h3 class="text-center p-3">About <span class="text-primary">Me</span></h3>
+
+        <!-- About container -->
+        <div class="container p-3">
+          <!-- About Main row -->
+          <div class="row p-3">
+            <!-- About me image -->
+            <div class="col text-center p-3">
+              <img src="assets/images/placeholder.jpg" width="256" height="256" alt="8-bit pixelated image of Nick.">
+            </div >
+
+            <!-- About me text-->
+            <div class="col p-3">
+              <p>I'll keep it short;</p>
+              <ul>
+                <li>Currently pursuing a B.S. in Informatics/Software Development at SUNY Albany.</li>
+                <li>Expected graduation in May 2024.</li>
+                <li>Strong interest in artificial intelligence/machine learning.</li>
+                <li>2 years of experience programming with Python.</li>
+                <li>Experienced with web development.</li>
+                <li>Cats are pretty <a href="https://nxrada.github.io/zgatto/demo.html">cool.</a></li>
+              </ul>
+            </div> <!-- END About me text-->
+
+          </div> <!-- END About row -->
+          <hr class="row mt-5">
+          <!-- Contact title row -->
+          <div id="contact" class="row text-center p-3">
+            <h3>Contact <span class="text-primary">Me</span></h3>
+          </div> <!-- END Contact title row-->
+
+          <!-- Contact link row -->
+          <div class="row text-center">
+            <!-- Email -->
+            <div class="col">
+              <a href="assets/docs/KAMMERER%20RESUME%20(public).pdf">
+                <iconify-icon icon="fxemoji:email" width="128" height="128"></iconify-icon></a>
+              <p>nkammerer@albany.edu</p>
+            </div> <!-- END Email -->
+
+            <!-- GitHub -->
+            <div class="col">
+              <a href="https://github.com/nxrada">
+                <iconify-icon icon="logos:github-icon" width="128" height="128"></iconify-icon>
+              </a>
+              <p>@nxrada</p>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="col">
+              <a href="https://linkedin.com/in/nkammerer">
+                <iconify-icon icon="logos:linkedin-icon" style="color: #0d6efd;" width="128" height="128"></iconify-icon>
+              </a>
+              <p>nkammerer</p>
+            </div>
+          </div> <!-- END Main contact row -->
+        </div> <!-- END About Me container -->
+      </section> <!-- END About -->
 
     <!-- Footer -->
-    <footer class="text-center mb-3">
-          <p>Copyright &copy; 2023.</p>
-          <!-- Resume, GitHub, LinkedIn links. -->
-          <a href="assets/docs/KAMMERER%20RESUME%20(public).pdf"><img src="assets/images/icons/resume-icon-dark.png"
-                                                                      width="32" height="32"
-                                                                      alt="Resume icon."></a>
-          <a href="https://github.com/nxrada"><img src="assets/images/icons/GitHub-Logo-Dark-32x.png" width="32"
-                                                   height="32" alt="GitHub logo link."></a>
-          <a href="https://linkedin.com/in/nkammerer"><img src="assets/images/icons/LinkedIn-Logo-Dark-32x.png"
-                                                                   width="32" height="32" alt="LinkedIn logo link."></a>
-      </footer><!-- END Footer -->
+    <footer class="text-center p-3 bg-dark">
+          <p class="text-light">Copyright &copy; 2023.</p>
+    </footer><!-- END Footer -->
+
+    <!-- Back to top button -->
+    <a href="#header" id="backToTopBtn"><button class="btn btn-primary rounded opacity-75">
+      <iconify-icon icon="tabler:chevron-up"></iconify-icon></button></a>
 
     <!-- Scripts -->
     <div>
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+			        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+			        crossorigin="anonymous"></script>
+
       <!-- Boostrap + Popper.js -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"></script>
+
       <!-- Typed.js -->
       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
       <script src="assets/scripts/typed-local.js"></script>
-      <!-- Custom scripts -->
-      <script src="assets/scripts/backToTopBtn.js"></script>
-    </div>
-  </body>
+
+      <!-- Particles.js -->
+      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+      <!-- Particles.js config -->
+      <script src="assets/scripts/app.js"></script>
+      <!-- Iconify -->
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+      <!-- Site Applet scripts -->
+      <!-- Back to top button script -->
+      <script src="assets/scripts/backToTop.js"></script>
+
+    </div> <!-- END Scripts -->
+
+  </body> <!-- END Body -->
+
 </html>

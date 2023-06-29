@@ -1,0 +1,53 @@
+/*
+    Font Settings
+ */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.name {
+    font-family: 'Marcellus SC', serif;
+}
+.typing {
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+}
+
+
+/*
+    Back to Top Button
+ */
+#backToTopBtn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 0.5rem 0.9rem;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#backToTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*
+    Particles.js Adjustments
+ */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+header {
+    position: relative;
+    z-index: 10;
+}
+#hero {
+    z-index: 20;
+}
+section {
+
+}
