@@ -18,7 +18,7 @@
 - [AOS](https://github.com/michalsnik/aos) - Scroll animation library
 - [Particles.js]() - Particle rendering library
 - [Typing.js]() - Terminal-like typing animation library
-- cont...
+
 
 ## Licensing 
 
