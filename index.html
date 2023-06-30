@@ -51,22 +51,44 @@
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link text-light" href="#projects">
-                    <iconify-icon icon="bi:code-slash"></iconify-icon> Projects</a></li>
+                    <iconify-icon inline icon="bi:code-slash"></iconify-icon> Projects</a></li>
                 <li class="nav-item">
                   <a class="nav-link text-light" href="assets/docs/KAMMERER%20RESUME%20(public).pdf">
-                     <iconify-icon icon="bi:file-earmark"></iconify-icon> Resume</a></li>
+                     <iconify-icon inline icon="bi:file-earmark"></iconify-icon> Resume</a></li>
                 <li class="nav-item">
                   <a class="nav-link text-light" href="#skills">
-                     <iconify-icon icon="bi:wrench"></iconify-icon> Skills</a></li>
+                     <iconify-icon inline icon="bi:wrench"></iconify-icon> Skills</a></li>
                 <li class="nav-item">
                   <a class="nav-link text-light" href="#contact">
-                     <iconify-icon icon="bi:telephone"></iconify-icon> Contact</a></li>
+                     <iconify-icon inline icon="bi:telephone"></iconify-icon> Contact</a></li>
               </ul>
             </div>
           </div><!-- END Fluid Container -->
         </nav> <!-- END Navbar -->
+      <!-- Navbar Mobile -->
+      <nav class="navbar navbar-expand p-2 pb-3 mt-3 fixed-top hide-for-desktop mobile-navbar" aria-label="Main navbar">
+          <div class="container-fluid justify-content-center">
+            <div class="">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#projects">
+                    Projects</a></li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="assets/docs/KAMMERER%20RESUME%20(public).pdf">
+                      Resume</a></li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#skills">
+                     Skills</a></li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#contact">
+                     Contact</a></li>
+              </ul>
+            </div>
+          </div><!-- END Fluid Container -->
+        </nav> <!-- END Navbar mobile -->
+
       <!-- Hero -->
-      <section id="hero" class="pt-5">
+      <section id="hero" class="pt-md-5 pt-sm-3">
         <div class="container-fluid">
           <!-- Hero Image & Text-->
           <div class="row p-md-5">
@@ -83,11 +105,11 @@
 
               <a href="#projects" class="p-md-5">
               <button class="btn btn-primary">
-                <iconify-icon icon="bi:code-slash"></iconify-icon>
+                <iconify-icon inline icon="bi:code-slash"></iconify-icon>
                  Projects</button></a>
               <a href="https://github.com/nxrada" class="p-md-5">
               <button class="btn btn-outline-primary">
-                <iconify-icon icon="bi:github"></iconify-icon>
+                <iconify-icon inline icon="bi:github"></iconify-icon>
                  GitHub</button></a>
 
               </div>
@@ -106,7 +128,7 @@
       <!-- Projects Container -->
       <div class="container p-3">
         <!-- Main Projects row -->
-        <div class="row p-3">
+        <div class="row gy-4 p-3">
 
           <!-- PyCipher-CLI project -->
           <div class="col text-center">
@@ -119,11 +141,11 @@
                 <p class="card-body">Command-line encryption tool for text (.txt) files.</p>
 
                 <a class="btn btn-primary" href="https://github.com/nxrada/pycipher-cli">
-                  <iconify-icon icon="bi:code-slash"></iconify-icon>
+                  <iconify-icon inline icon="bi:code-slash"></iconify-icon>
                    Code</a>
 
                 <a class="btn btn-outline-primary" href="#">
-                  <iconify-icon icon="carbon:play-filled" width="16" height="16"></iconify-icon>
+                  <iconify-icon inline icon="carbon:play-filled" width="16" height="16"></iconify-icon>
                    Demo</a>
 
               </div>
@@ -156,11 +178,11 @@
                       <p class="card-body">This portfolio website, built with HTML5, Bootstrap, and JS.</p>
 
                       <a class="btn btn-primary" href="https://github.com/nxrada/nkammerer.com">
-                        <iconify-icon icon="bi:code-slash"></iconify-icon>
+                        <iconify-icon inline icon="bi:code-slash"></iconify-icon>
                          Code</a>
 
                       <a class="btn btn-outline-primary" href="https://www.nkammerer.com/">
-                        <iconify-icon icon="ic:round-live-tv" width="16" height="16"></iconify-icon>
+                        <iconify-icon inline icon="ic:round-live-tv" width="16" height="16"></iconify-icon>
                         Live Demo</a>
                     </div>
                   </div>
@@ -177,11 +199,11 @@
                       <p class="card-body">A graphical user interface for the yt-dlp command-line tool.</p>
 
                       <a class="btn btn-primary" href="https://github.com/nxrada/yt-dlp-gui">
-                        <iconify-icon icon="bi:code-slash"></iconify-icon>
+                        <iconify-icon inline icon="bi:code-slash"></iconify-icon>
                          Code</a>
 
                       <a class="btn btn-outline-primary">
-                          <iconify-icon icon="carbon:play-filled" width="16" height="16"></iconify-icon>
+                          <iconify-icon inline icon="carbon:play-filled" width="16" height="16"></iconify-icon>
                          Demo</a>
                     </div>
                   </div>
@@ -252,9 +274,15 @@
 
           <!-- Contact link row -->
           <div class="row text-center">
+            <!-- Resume -->
+            <div class="col">
+              <a href="assets/docs/resume.pdf">
+                <iconify-icon icon="bi:file-earmark-text-fill" width="128" height="128"></iconify-icon></a>
+              <p>Resume</p>
+            </div> <!-- END Resume -->
             <!-- Email -->
             <div class="col">
-              <a href="assets/docs/KAMMERER%20RESUME%20(public).pdf">
+              <a href="mailto:nkammerer@albany.edu">
                 <iconify-icon icon="fxemoji:email" width="128" height="128"></iconify-icon></a>
               <p>nkammerer@albany.edu</p>
             </div> <!-- END Email -->
