@@ -47,7 +47,7 @@ header {
     height: 100vh;
     width: 98vw;
     position: absolute;
-    z-index: 0;
+    z-index: -1;
 }
 @media screen and (max-width: 450px) {
     #particles-js {
@@ -67,7 +67,7 @@ header {
 
 @media screen and (min-width: 800px) {
     .hide-for-desktop {
-        display: none;
+        visibility: hidden;
   }
 }
 
