@@ -11,6 +11,30 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: large;
 }
+/*====================================================================================================================*/
+/*                                                   Navbar Underline
+/*====================================================================================================================*/
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: #0d6efd;
+  transition: all 0.5s;
+  transform: translateX(-50%);
+}
+
+nav ul li a:hover::after {
+  width: 75%;
+}
 
 /*====================================================================================================================*/
 /*                                                   Navbar mobile

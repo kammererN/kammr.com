@@ -13,7 +13,7 @@ let icons = document.querySelectorAll('.skill-icon');
 
 icons.forEach(icon => {
   icon.addEventListener('mouseenter', function(){
-    gsap.to(icon, {scale: 1.25, duration: 0.5});
+    gsap.to(icon, {scale: 1.35, duration: 0.5});
   });
 
   icon.addEventListener('mouseleave', function(){
