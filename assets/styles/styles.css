@@ -89,7 +89,7 @@ body {
 }
 
 #backToTopBtn.show {
-    opacity: 1;
+    opacity: 0.8;
     visibility: visible;
 }
 

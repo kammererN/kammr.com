@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
+    <!-- Link to AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Link to my stylesheet -->
     <link rel="stylesheet" href="assets/styles/styles.css">
 
@@ -38,14 +41,15 @@
   <!--=============================================================-->
 
   <!-- Body -->
-  <body>
+  <body data-aos-delay="0">
 
     <!-- Header -->
     <header id="header" class="p-3 bg-dark min-vh-100">
       <!-- Particles -->
       <div id="particles-js"></div><!-- END Particles -->
       <!-- Navbar-->
-      <nav class="navbar navbar-expand p-2 pb-3 hide-for-mobile" aria-label="Main navbar">
+      <nav class="navbar navbar-expand p-2 pb-3 hide-for-mobile" aria-label="Main navbar"
+           data-aos="fade-up">
           <div class="container-fluid justify-content-center">
             <div class="" id="mainNavbar">
               <ul class="navbar-nav">
@@ -66,7 +70,8 @@
           </div><!-- END Fluid Container -->
         </nav> <!-- END Navbar -->
       <!-- Navbar Mobile -->
-      <nav class="navbar navbar-expand p-2 pb-3 mt-3 fixed-top hide-for-desktop mobile-navbar" aria-label="Main navbar">
+      <nav class="navbar navbar-expand p-2 pb-3 mt-3 fixed-top hide-for-desktop mobile-navbar" aria-label="Main navbar"
+           data-aos="fade-up">
           <div class="container-fluid justify-content-center">
             <div class="">
               <ul class="navbar-nav">
@@ -88,7 +93,8 @@
         </nav> <!-- END Navbar mobile -->
 
       <!-- Hero -->
-      <section id="hero" class="pt-md-5 pt-sm-3">
+      <section id="hero" class="pt-md-5 pt-sm-3"
+               data-aos="fade-up">
         <div class="container-fluid">
           <!-- Hero Image & Text-->
           <div class="row p-md-5">
@@ -121,12 +127,10 @@
       <!-- Separator --><!-- END Separator -->
     </header>
 
-
-
     <!-- Projects -->
     <section id="projects" class="p-3">
       <!-- Section title -->
-      <h3 class="text-center p-3">My <span class="text-primary">Projects</span></h3>
+      <h3 class="text-center p-3" data-aos="fade-up">My <span class="text-primary">Projects</span></h3>
 
       <!-- Projects Container -->
       <div class="container p-3">
@@ -134,7 +138,7 @@
         <div class="row gy-4 p-3">
 
           <!-- Zgatto project -->
-          <div id="zgatto" class="col text-center">
+          <div id="zgatto" class="col text-center" data-aos="fade-up" data-aos-delay="100">
                   <div class="card">
                     <!-- zgatto website project image -->
                     <img src="/assets/img/projects/zgatto-sc.png" alt="YouTube-DLP-GUI project screenshot.">
@@ -155,7 +159,7 @@
                   </div><!-- END Zgatto project -->
 
           <!-- PyCipher-CLI project -->
-          <div class="col text-center">
+          <div class="col text-center" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <!-- PyCipher-CLI project image -->
               <img src="/assets/img/projects/pycipher-cli-sc.png" alt="Pycipher project screenshot.">
@@ -192,7 +196,7 @@
             </div--><!-- END Whereify project -->
 
           <!-- Portfolio website project -->
-          <div id="portfolio-website" class="col text-center">
+          <div id="portfolio-website" class="col text-center" data-aos="fade-up" data-aos-delay="300">
                   <div class="card">
                     <!-- Portfolio website project image -->
                     <img src="/assets/img/projects/portfolio-sc.png" alt="Screenshot of this webpage.">
@@ -243,10 +247,10 @@
         <!-- END Separator -->
 
         <!-- Section Title -->
-        <h3 class="text-center p-3">Technical <span class="text-primary">Skills</span></h3>
+        <h3 class="text-center p-3" data-aos="fade-in">Technical <span class="text-primary">Skills</span></h3>
 
         <!-- Skills container -->
-        <div class="container-fluid p-3 text-reset">
+        <div class="container-fluid p-3 text-reset" data-aos="fade-in">
           <!-- Skills list -->
           <ul>
             <li>Python</li>
@@ -269,21 +273,23 @@
     <!-- About & Contact -->
     <section id="about" class="p-3">
         <!-- Section Title -->
-        <h3 class="text-center p-3">About <span class="text-primary">Me</span></h3>
+        <h3 class="text-center p-3" data-aos="fade-up">About <span class="text-primary">Me</span></h3>
 
-        <!-- About container -->
+        <!-- About & Contact container -->
         <div class="container p-3">
           <!-- About row -->
           <div class="row p-md-3">
             <!-- About image -->
-            <div class="col text-center p-md-3">
-              <img id="profile-pic" src="assets/img/me/selfie-512px.jpg" width="512" height="512" alt="8-bit pixelated image of Nick.">
+            <div class="col text-center p-md-3" data-aos="zoom-in">
+              <img id="profile-pic" src="assets/img/me/selfie-512px.jpg"
+                   class="border-0 rounded-circle"
+                   width="512" height="512" alt="8-bit pixelated image of Nick.">
             </div >
 
             <!-- About text-->
-            <div class="col p-3">
-              <p>Hello,</p>
-              <ul>
+            <div class="col p-3" data-aos="fade-in" data-aos-delay="150">
+              <h2 class="mt-md-3">Hello,</h2>
+              <ul class="mt-md-4">
                 <li>Currently pursuing a B.S. in Informatics at SUNY Albany.</li>
                 <li>Expected graduation in May 2024.</li>
                 <li>Strong interest in artificial intelligence & machine learning.</li>
@@ -291,7 +297,7 @@
                 <li>Experienced with full-stack web development.</li>
                 <li>Cats are pretty <a href="https://nxrada.github.io/zgatto/demo.html">cool.</a></li>
               </ul>
-              <p class="text-end">- Nick</p>
+              <h2 class="text-end">- Nick</h2>
             </div> <!-- END About text-->
 
           </div> <!-- END About row -->
@@ -300,27 +306,27 @@
           <hr class="row mt-5"><!-- END Line -->
 
           <!-- Contact title row -->
-          <div id="contact" class="row text-center p-3">
+          <div id="contact" class="row text-center p-3" data-aos="fade-up">
             <h3>Contact <span class="text-primary">Me</span></h3>
           </div> <!-- END Contact title row-->
 
           <!-- Contact link row -->
           <div class="row gy-3 text-center">
             <!-- Resume -->
-            <div class="col">
+            <div class="col" data-aos="fade-in">
               <a href="assets/docs/KAMMERER%20RESUME%20(public).pdf">
                 <iconify-icon icon="fxemoji:document" width="128" height="128"></iconify-icon></a>
               <p>Resume</p>
             </div> <!-- END Resume -->
             <!-- Email -->
-            <div class="col">
+            <div class="col" data-aos="fade-in" data-aos-delay="100">
               <a href="mailto:nkammerer@albany.edu">
                 <iconify-icon icon="fxemoji:email" width="128" height="128"></iconify-icon></a>
               <p>nkammerer@albany.edu</p>
             </div> <!-- END Email -->
 
             <!-- GitHub -->
-            <div class="col">
+            <div class="col" data-aos="fade-in" data-aos-delay="200">
               <a href="https://github.com/nxrada">
                 <iconify-icon icon="logos:github-icon" width="128" height="128"></iconify-icon>
               </a>
@@ -328,15 +334,15 @@
             </div>
 
             <!-- LinkedIn -->
-            <div class="col">
+            <div class="col" data-aos="fade-in" data-aos-delay="300">
               <a href="https://linkedin.com/in/nkammerer">
                 <iconify-icon icon="logos:linkedin-icon" style="color: #0d6efd;" width="128" height="128"></iconify-icon>
               </a>
               <p>nkammerer</p>
             </div>
-          </div> <!-- END Main contact row -->
+          </div> <!-- END Contact link row -->
 
-        </div> <!-- END About Me container -->
+        </div> <!-- END About & Contact container -->
       </section> <!-- END About -->
 
     <!-- Footer -->
@@ -345,7 +351,7 @@
     </footer><!-- END Footer -->
 
     <!-- Back to top button -->
-    <a href="#header" id="backToTopBtn"><button class="btn btn-primary rounded opacity-75">
+    <a href="#header" id="backToTopBtn" data-aos="fade-up"><button class="btn btn-primary rounded">
       <iconify-icon icon="tabler:chevron-up"></iconify-icon></button></a>
 
     <!-- Scripts -->
@@ -367,8 +373,14 @@
       <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
       <!-- Particles.js config -->
       <script src="assets/scripts/particlesApp.js"></script>
+
       <!-- Iconify -->
       <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+      <!-- Animations On Scroll -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- Initialize AOS -->
+      <script>AOS.init();</script>
 
       <!-- Site Applet scripts -->
       <!-- Back to top button script -->
