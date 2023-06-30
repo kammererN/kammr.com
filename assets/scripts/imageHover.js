@@ -1,16 +1,22 @@
 
-window.addEventListener('DOMContentLoaded', (event) => {
-    const profilePic = document.getElementById('profile-pic');
+var coin = document.getElementById('profile-pic');
 
-    // Initial scale
-    gsap.set(profilePic, { scale: 1 });
-
-    profilePic.addEventListener('mouseover', function() {
-        gsap.to(profilePic, { scale: 1.2, duration: 1, ease: "power2.out" });
+    coin.addEventListener('click', function() {
+      gsap.to(coin, {
+        rotationY: "+=720",
+        duration: 3,
+        ease: "power1.out"
+      });
     });
 
-    profilePic.addEventListener('mouseout', function() {
-        gsap.to(profilePic, { scale: 1, duration: 1, ease: "power2.out" });
-    });
+let icons = document.querySelectorAll('.skill-icon');
+
+icons.forEach(icon => {
+  icon.addEventListener('mouseenter', function(){
+    gsap.to(icon, {scale: 1.25, duration: 0.5});
+  });
+
+  icon.addEventListener('mouseleave', function(){
+    gsap.to(icon, {scale: 1, duration: 0.5});
+  });
 });
-

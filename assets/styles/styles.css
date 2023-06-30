@@ -54,7 +54,6 @@ body {
     min-height: 65vh;
 }
 #skills iconify-icon {
-    font-size: 3em;
     display:block;
 }
 
@@ -113,11 +112,22 @@ header {
     position: absolute;
     z-index: -1;
 }
+#particles-js2 {
+    height: 100vh;
+    width: 97vw;
+    position: absolute;
+    z-index: -1;
+}
 @media screen and (max-width: 450px) {
     #particles-js {
-    width: 90vw;
-    z-index: -1;
-  }
+        width: 90vw;
+        z-index: -1;
+    }
+    #particles-js2 {;
+        width: 88vw;
+        position: absolute;
+        z-index: -1;
+    }
 }
 
 /*====================================================================================================================*/
