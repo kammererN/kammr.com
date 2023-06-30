@@ -128,7 +128,7 @@
     </header>
 
     <!-- Projects -->
-    <section id="projects" class="p-3">
+    <section id="projects" class="p-4">
       <!-- Section title -->
       <h3 class="text-center p-3" data-aos="fade-up">My <span class="text-primary">Projects</span></h3>
 
@@ -242,7 +242,7 @@
     </section> <!-- END Projects -->
 
     <!-- Skills -->
-    <section id="skills" class="p-3 bg-dark text-light">
+    <section id="skills" class="p-4 bg-dark text-light">
         <!-- Separator -->
         <!-- END Separator -->
 
@@ -250,28 +250,74 @@
         <h3 class="text-center p-3" data-aos="fade-in">Technical <span class="text-primary">Skills</span></h3>
 
         <!-- Skills container -->
-        <div class="container-fluid p-3 text-reset" data-aos="fade-in">
-          <!-- Skills list -->
-          <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
-            <li>Bootstrap</li>
-            <li>SQLite3</li>
-            <li>Linux</li>
-            <li>Microsoft Azure</li>
-            <li>Microsoft Office 365</li>
-          </ul>
+        <div class="container-fluid p-3 text-center" data-aos="fade-in">
+
+          <!-- Skills Row #01 -->
+          <div class="row">
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:python" width="90" height="90"></iconify-icon>
+              <span class="pt-2">Python</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:javascript" width="90" height="90"></iconify-icon>
+              <span class="pt-2">JavaScript</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:html5" width="90" height="90"></iconify-icon>
+              <span class="pt-2">HTML</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+               <iconify-icon icon="devicon:css3" width="90" height="90"></iconify-icon>
+              <span class="pt-2">CSS</span>
+            </div>
+          </div> <!-- END Skills Row #01 -->
+
+          <!-- Skills Row #02 -->
+          <div class="row">
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:git" width="90" height="90"></iconify-icon>
+              <span class="pt-2">Git</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:bootstrap" width="90" height="90"></iconify-icon>
+              <span class="pt-2">Bootstrap</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:java" width="90" height="90"></iconify-icon>
+              <span class="pt-2">Java</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:sqlite" width="90" height="90"></iconify-icon>
+              <span class="pt-2">SQLite3</span>
+            </div>
+          </div> <!-- END Skills Row #02 -->
+
+          <!-- Skills Row #03 -->
+          <div class="row">
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:jquery" width="90" height="90"></iconify-icon>
+              <span class="pt-2">jQuery</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:flask" width="90" height="90"></iconify-icon>
+              <span class="pt-2">Flask</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:linux" width="90" height="90"></iconify-icon>
+              <span class="pt-2">Linux</span>
+            </div>
+            <div class="col text-center d-flex flex-column align-items-center skill-icon">
+              <iconify-icon icon="devicon:azure" width="90" height="90"></iconify-icon>
+              <span class="pt-2">Microsoft Azure</span>
+            </div>
+          </div><!-- END Skills row #03 -->
         </div> <!-- END Skills container -->
 
       <!-- Separator --><!-- END Separator -->
     </section> <!-- END Skills -->
 
     <!-- About & Contact -->
-    <section id="about" class="p-3">
+    <section id="about" class="p-4">
         <!-- Section Title -->
         <h3 class="text-center p-3" data-aos="fade-up">About <span class="text-primary">Me</span></h3>
 
@@ -346,7 +392,7 @@
       </section> <!-- END About -->
 
     <!-- Footer -->
-    <footer class="text-center p-3 bg-dark">
+    <footer class="text-center p-4 bg-dark">
       <p class="text-light">Copyright <a id="foot-egg" href="assets/egg.html">&copy;</a> 2023.</p>
     </footer><!-- END Footer -->
 
@@ -382,6 +428,10 @@
       <!-- Initialize AOS -->
       <script>AOS.init();</script>
 
+      <!-- GSAP Animation Library -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+      <!-- GSAP image hover script -->
+      <script src="assets/scripts/imageHover.js"></script>
       <!-- Site Applet scripts -->
       <!-- Back to top button script -->
       <script src="assets/scripts/backToTop.js"></script>
