@@ -131,3 +131,25 @@ header {
   }
 }
 
+/*====================================================================================================================*/
+/*                                                  Egg Links
+/*====================================================================================================================*/
+#name-egg {
+    color: inherit;      /* Link color will be the same as the surrounding text color */
+    text-decoration: none;  /* Removes the underline */
+}
+
+#name-egg:hover, #name-egg:active, #name-egg:focus {
+    color: inherit;      /* Ensures the link color doesn't change on hover/active/focus */
+    text-decoration: none;  /* Removes the underline on hover/active/focus */
+}
+#foot-egg {
+    color: inherit;      /* Link color will be the same as the surrounding text color */
+    text-decoration: none;  /* Removes the underline */
+}
+
+#foot-egg:hover, #foot-egg:active, #foot-egg:focus {
+    color: inherit;      /* Ensures the link color doesn't change on hover/active/focus */
+    text-decoration: none;  /* Removes the underline on hover/active/focus */
+}
+
