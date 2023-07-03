@@ -14,7 +14,7 @@
 ### Built With
 
 - HTML-5
-- SCSS
+- CSS
 - [Bootstrap](https://getbootstrap.com)
 - [jQuery](https://jquery.com)
 
@@ -22,7 +22,7 @@
  
 - [Iconify](https://iconify.design/) -  Icon library
 - [AOS](https://github.com/michalsnik/aos) - Scroll animation library
-- [Particles.js]() - Particle rendering library
+- [Particles.js](https://github.com/VincentGarreau/particles.js/) - Particle rendering library
 - [Typing.js]() - Terminal-like typing animation library
 
 
