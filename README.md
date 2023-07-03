@@ -28,4 +28,4 @@
 
 ## Licensing 
 
-GNU Public License v3.0+
+MIT License 2023 nxrada
