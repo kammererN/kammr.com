@@ -2,8 +2,7 @@
 [Code](https://github.com/nxrada/nkammerer.com)  |  [Live Demo](https://www.nkammerer.com)
 
 ![GitHub deployments](https://img.shields.io/github/deployments/nxrada/nkammerer.com/github-pages?style=plastic&logo=github)
-![GitHub](https://img.shields.io/github/license/nxrada/nkammerer.com?style=plastic) 
-
+![GitHub](https://img.shields.io/github/license/nxrada/nkammerer.com?style=plastic)
 
 
 ![Landing page screenshot.](assets/img/projects/portfolio-sc.png)
