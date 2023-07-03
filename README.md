@@ -2,8 +2,7 @@
 [Code](https://github.com/nxrada/nkammerer.com)  |  [Live Demo](https://www.nkammerer.com)
 
 ## About 
-- Portfolio webpage hosting my projects & demonstrating my ability to develop webpages. 
-- Created using Bootstrap CSS & jQuery. 
+- Portfolio webpage to host my projects & establish web presence.
 
 ### Built With
 
