@@ -1,7 +1,8 @@
 # nkammerer.com
 [Code](https://github.com/nxrada/nkammerer.com)  |  [Live Demo](https://www.nkammerer.com)
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.nkammerer.com)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.nkammerer.com) 
+![GitHub deployments](https://img.shields.io/github/deployments/nxrada/nkammerer.com/github-pages?style=plastic&logo=github)
 
 
 
