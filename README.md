@@ -5,7 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/kammererN/kammr.com?style=plastic)
 
 
-![Landing page screenshot.](assets/img/projects/portfolio-sc.png)
+![Landing page screenshot.](assets/img/projects/portfolio-page-screenshot.png)
 
 ## About 
 - Portfolio webpage
