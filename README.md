@@ -8,7 +8,7 @@
 ![Landing page screenshot.](assets/img/projects/portfolio-sc.png)
 
 ## About 
-- Portfolio webpage to host my projects.
+- Portfolio webpage
 
 ### Built With
 
