@@ -1,8 +1,8 @@
 # kammr.com
-[Code](https://github.com/kammererN/kammr)  |  [Live Demo](https://www.kammr.com)
+[Code](https://github.com/kammererN/kammr.com)  |  [Live Demo](https://www.kammr.com)
 
-![GitHub deployments](https://img.shields.io/github/deployments/nxrada/nkammerer.com/github-pages?style=plastic&logo=github)
-![GitHub](https://img.shields.io/github/license/nxrada/nkammerer.com?style=plastic)
+![GitHub deployments](https://img.shields.io/github/deployments/kammererN/kammr.com/github-pages?style=plastic&logo=github)
+![GitHub](https://img.shields.io/github/license/kammererN/kammr.com?style=plastic)
 
 
 ![Landing page screenshot.](assets/img/projects/portfolio-sc.png)
