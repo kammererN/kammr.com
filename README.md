@@ -1,5 +1,5 @@
 # kammr.com
-[Code](https://github.com/kammererN/kammr)  |  [Live Demo](kammr.com)
+[Code](https://github.com/kammererN/kammr)  |  [Live Demo](https://kammr.com)
 
 ![GitHub deployments](https://img.shields.io/github/deployments/nxrada/nkammerer.com/github-pages?style=plastic&logo=github)
 ![GitHub](https://img.shields.io/github/license/nxrada/nkammerer.com?style=plastic)
